@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-# decrypts openssl encrypted files if the last 30 bytes are \x00, then the first two bytes can be bruteforced
+# Author: Mark Kaiser
+# Date: 04/09/2020
+# Description: Decrypts openssl encrypted files if the last 30 bytes are \x00, then the first two bytes can be bruteforced
 
 from Crypto.Cipher import AES # import the crypto functionality needed
 
